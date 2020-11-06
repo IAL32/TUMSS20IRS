@@ -1,0 +1,21 @@
+{
+    "ltex.commands.ignore": [
+        "\\documentclass[]{}",
+        "\\title{}",
+        "\\author{}",
+        "\\institution{}"
+    ],
+    "ltex.environments.ignore": [
+        "CCSXML"
+    ],
+    "ltex.ignoreRuleInSentence": [
+        {
+            "rule": "MORFOLOGIK_RULE_EN_US",
+            "sentence": "^\\QLastly, it has been deemed not useful for our purposes to track data for certain WordPress directories and locations, such as “/wp-login”, “/wp-admin”, “/wp-includes” and “/wp-cron.php”, as these are locations that a user is not allowed to access under regular navigation conditions.\\E$"
+        },
+        {
+            "rule": "MORFOLOGIK_RULE_EN_US",
+            "sentence": "^\\QBecause we are using WordPress as a base, Coimf uses the built-in global $wpdb; variable to access\\E$"
+        }
+    ]
+}
